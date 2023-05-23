@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="backBlanc" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="900.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <TableView fx:id="tableau" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="codeValue" prefWidth="66.39999580383301" text="codeValue" />
+          <TableColumn fx:id="alternateName" prefWidth="56.800010681152344" text="alternateName" />
+            <TableColumn fx:id="countryGroup" prefWidth="59.199981689453125" text="countryGroup" />
+            <TableColumn fx:id="nameEn" prefWidth="121.5999755859375" text="nameEn" />
+            <TableColumn fx:id="nameFr" prefWidth="104.79998779296875" text="nameFr" />
+            <TableColumn fx:id="nameDE" prefWidth="99.19998168945312" text="nameDe" />
+            <TableColumn fx:id="latitude" prefWidth="120.800048828125" text="latitude" />
+            <TableColumn fx:id="longitude" prefWidth="143.20001220703125" text="longitude" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
